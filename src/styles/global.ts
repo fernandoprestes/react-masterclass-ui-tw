@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: Roboto, 'Open Sans', sans-serif;
     font-variant-numeric: tabular-nums;
     -webkit-font-smoothing: antialiased;
+    color: #0f1419
   }
 
   body, input, textarea, button {

@@ -1,16 +1,7 @@
 export const defaultTheme = {
   colors: {
     primary: {
-      '50': '#eff8ff',
-      '100': '#dbeefe',
-      '200': '#bee2ff',
-      '300': '#92d1fe',
-      '400': '#5eb7fc',
-      '500': '#3294f8',
-      '600': '#2379ed',
-      '700': '#1b63da',
-      '800': '#1c50b1',
-      '900': '#1d468b',
+      '500': '#1da1f2',
     },
   },
   textSizes: {

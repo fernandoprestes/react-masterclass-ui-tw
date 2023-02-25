@@ -7,5 +7,6 @@
   "jsxSingleQuote": true,
   "quoteProps": "consistent",
   "arrowParens": "avoid",
+  "endOfLine": "lf",
   "singleAttributePerLine": true
 }

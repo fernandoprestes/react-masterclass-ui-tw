@@ -33,7 +33,6 @@
     "arrow-body-style": ["error", "as-needed"],
     "react/self-closing-comp": ["error", { "component": true, "html": true }],
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/consistent-type-imports": [
       "error",
       {
