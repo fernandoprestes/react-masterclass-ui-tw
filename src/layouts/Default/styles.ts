@@ -61,6 +61,6 @@ export const SidebarNewTweetButton = styled('button')`
 `;
 
 export const MainContent = styled('div')`
-  border-left: 1px solid '#ebeef0';
-  border-right: 1px solid '#ebeef0';
+  border-left: 1px solid #ebeef0;
+  border-right: 1px solid #ebeef0;
 `;
