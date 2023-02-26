@@ -1,6 +1,7 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const TweetContainer = styled('a')`
+export const TweetContainer = styled(NavLink)`
   padding: 1.5rem 1.25rem;
   display: grid;
   grid-template-columns: 3rem 1fr;

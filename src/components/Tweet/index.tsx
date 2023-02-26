@@ -7,7 +7,7 @@ interface TweetProps {
 
 export default function Tweet({ content }: TweetProps) {
   return (
-    <TweetContainer>
+    <TweetContainer to='/status'>
       <img
         src='https://github.com/fernandoprestes.png'
         alt='avatar user'
