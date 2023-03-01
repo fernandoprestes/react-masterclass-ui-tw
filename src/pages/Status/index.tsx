@@ -1,3 +1,4 @@
+import { PaperPlaneRight } from 'phosphor-react';
 import { useState } from 'react';
 import Header from '~/components/Header';
 import Tweet from '~/components/Tweet';
@@ -52,7 +53,10 @@ export const Status = function StatusPages() {
             onChange={event => setNewAnswers(event.target.value)}
           />
         </AnswerTweetLabel>
-        <AnswerTweetButton type='submit'>Answer</AnswerTweetButton>
+        <AnswerTweetButton type='submit'>
+          <PaperPlaneRight />
+          <span>Answer</span>
+        </AnswerTweetButton>
       </AnswerTweetForm>
 
       {answers.map(answer => (

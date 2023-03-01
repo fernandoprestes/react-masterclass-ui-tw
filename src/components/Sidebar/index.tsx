@@ -1,4 +1,4 @@
-import { House, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle, Hash } from 'phosphor-react';
+import { House, Bell, Envelope, BookmarkSimple, FileText, User, DotsThreeCircle, Hash, Pencil } from 'phosphor-react';
 import imgLogoTw from '~/assets/img/logo-tw.svg';
 import { SideBar, SidebarLogo, SidebarMenu, SideBarLink, SidebarNewTweetButton } from './styles';
 
@@ -12,38 +12,41 @@ export default function Sidebar() {
       <SidebarMenu>
         <SideBarLink to='/'>
           <House weight='fill' />
-          Home
+          <span>Home</span>
         </SideBarLink>
         <SideBarLink to='/explore'>
           <Hash />
-          Explore
+          <span>Explore</span>
         </SideBarLink>
         <SideBarLink to='/notifications'>
           <Bell />
-          Notifications
+          <span>Notifications</span>
         </SideBarLink>
         <SideBarLink to='/messages'>
           <Envelope />
-          Messages
+          <span>Messages</span>
         </SideBarLink>
         <SideBarLink to='/bookmarks'>
           <BookmarkSimple />
-          Bookmarks
+          <span>Bookmarks</span>
         </SideBarLink>
         <SideBarLink to='/lists'>
           <FileText />
-          Lists
+          <span>Lists</span>
         </SideBarLink>
         <SideBarLink to='/profile'>
           <User />
-          Profile
+          <span>Profile</span>
         </SideBarLink>
         <SideBarLink to='/more'>
           <DotsThreeCircle />
-          More
+          <span>More</span>
         </SideBarLink>
       </SidebarMenu>
-      <SidebarNewTweetButton>tweet</SidebarNewTweetButton>
+      <SidebarNewTweetButton>
+        <Pencil />
+        <span>tweet</span>
+      </SidebarNewTweetButton>
     </SideBar>
   );
 }

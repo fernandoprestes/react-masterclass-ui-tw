@@ -6,6 +6,11 @@ export const SideBar = styled('aside')`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 780px) {
+    padding: 1.5rem 0.75rem;
+    align-items: center;
+  }
 `;
 
 export const SidebarLogo = styled('img')`
@@ -34,6 +39,12 @@ export const SideBarLink = styled(NavLink)`
     width: 2rem;
     height: 2rem;
   }
+
+  @media (max-width: 780px) {
+    span {
+      display: none;
+    }
+  }
 `;
 
 export const SidebarNewTweetButton = styled('button')`
@@ -49,5 +60,21 @@ export const SidebarNewTweetButton = styled('button')`
 
   &:hover {
     filter: brightness(0.9);
+  }
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    display: none;
+  }
+
+  @media (max-width: 780px) {
+    padding: 0.75rem;
+    svg {
+      display: block;
+    }
+    span {
+      display: none;
+    }
   }
 `;

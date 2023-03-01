@@ -50,6 +50,22 @@ export const AnswerTweetButton = styled('button')`
   &:hover {
     filter: brightness(0.9);
   }
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: none;
+  }
+
+  @media (max-width: 780px) {
+    padding: 0.75rem;
+    svg {
+      display: block;
+    }
+    span {
+      display: none;
+    }
+  }
 `;
 
 export const Separator = styled('div')`
