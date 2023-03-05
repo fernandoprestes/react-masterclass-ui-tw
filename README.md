@@ -1,6 +1,6 @@
-# Template para projetos com React + TS + StyledComponets
+# Masterclass React | Rocketseat
 
-Este repositório é um laboratorio de estudos e serve como um template para projetos de estudos usando as seguintes tecnologias:
+Repositório de estudo de aprofundamento em frontend com React e styledcomponents.
 
 ## Tecnologias
 
@@ -8,6 +8,7 @@ Este repositório é um laboratorio de estudos e serve como um template para pro
 - [ReactTS](https://pt-br.reactjs.org/)
 - [React-Router](https://reactrouter.com/en/main)
 - [Typescript](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [husky](https://typicode.github.io/husky/#/)
